@@ -1,0 +1,31 @@
+{
+  "timePeriod": "2016-09-30T22:00:00+02:00/2016-11-01T01:59:59+01:00",
+  "procedure": "wxt520",
+  "featureOfInterest": "wxt520",
+  "coordinates": [
+    51.9347763061523,
+    7.65237522125244
+  ],
+  "series": [
+    {
+      "observedProperty": "AirTemperature",
+      "uom": "degC",
+      "dataUrl": "http://sensorweb.demo.52north.org/sensorwebtestbed/api/v1/timeseries/72/getData?expanded=true&format=flot&generalize=true"
+    },
+    {
+      "observedProperty": "InSystemTemperature",
+      "uom": "degC",
+      "dataUrl": "http://sensorweb.demo.52north.org/sensorwebtestbed/api/v1/timeseries/73/getData?expanded=true&format=flot&generalize=true"
+    },
+    {
+      "observedProperty": "Humidity",
+      "uom": "degC",
+      "dataUrl": "http://sensorweb.demo.52north.org/sensorwebtestbed/api/v1/timeseries/74/getData?expanded=true&format=flot&generalize=true"
+    },
+    {
+      "observedProperty": "AthmosphericPressure",
+      "uom": "degC",
+      "dataUrl": "http://sensorweb.demo.52north.org/sensorwebtestbed/api/v1/timeseries/108/getData?expanded=true&format=flot&generalize=true"
+    }
+  ]
+}

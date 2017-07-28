@@ -1,0 +1,19 @@
+{
+  "timePeriod": "2015-08-31T00:00:00+00:00/2015-09-15T23:59:59+00:00",
+  "procedure": "SIGNES_station",
+  "featureOfInterest": "SIGNES",
+  "coordinates": [
+    43.251327,
+    5.811157
+  ],
+  "altitude": 460,
+  "codespace": "http://insitu.webservice-energy.org/codespace/",
+  "series": [
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Pyrano GSM 10.7 horizontal-QC1",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/347/getData?expanded=true&format=flot"
+    }
+  ]
+}

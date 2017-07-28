@@ -1,0 +1,47 @@
+{
+  "request": "InsertObservation",
+  "service": "SOS",
+  "version": "2.0.0",
+  "offering": "wxt520",
+  "observation": [
+    {
+      "type": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+      "procedure": "wxt520",
+      "observedProperty": "AirTemperature",
+      "featureOfInterest": {
+        "identifier": {
+          "value": "wxt520",
+          "codespace": "http://www.opengis.net/def/nil/OGC/0/unknown"
+        },
+        "name": [
+          {
+            "value": "52°North wxt520",
+            "codespace": "http://www.opengis.net/def/nil/OGC/0/unknown"
+          }
+        ],
+        "sampledFeature": [
+          "wxt520"
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.9347763061523,
+            7.65237522125244
+          ],
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          }
+        }
+      },
+      "phenomenonTime": "2012-11-19T13:00:00+00:00",
+      "resultTime": "2012-11-19T13:00:00+00:00",
+      "result": {
+        "uom": "degC",
+        "value": 17.2
+      }
+    }
+  ]
+}

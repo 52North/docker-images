@@ -1,0 +1,16 @@
+{
+  "name": "envirocar-to-sos-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "momentjs": "^1.1.17",
+    "mongodb": "^2.2.10",
+    "pg": "^6.1.0",
+    "rx": "^4.1.0"
+  }
+}

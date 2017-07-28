@@ -1,0 +1,91 @@
+{
+  "timePeriod": "2015-08-31T00:00:00+00:00/2015-09-15T23:59:59+00:00",
+  "procedure": "SIGNES_station",
+  "featureOfInterest": "SIGNES",
+  "coordinates": [
+    43.251327,
+    5.811157
+  ],
+  "altitude": 460,
+  "codespace": "http://insitu.webservice-energy.org/codespace/",
+  "series": [
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Pyrano GSM 10.7 horizontal-QC1",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/347/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Sonde PV Si-12TC-horizontal-QC1",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/348/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Pyrano GSM 10.7 horizontal-QC1_Completed",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/349/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Sonde PV Si-12TC-horizontal-QC1_Completed",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/350/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Pyrano GSM 10.7 horizontal-QCfull",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/351/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "Global Horizontal Irradiance",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-Sonde PV Si-12TC-horizontal-QCfull",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/352/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Direct Normal Irradiance - Clear Sky",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-CLS-DNI",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/353/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Diffuse Horizontal Irradiance - Clear Sky",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-CLS-DHI",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/354/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Global Horizontal Irradiance - Clear Sky",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-CLS-GHI",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/355/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Horizontal Irradiance Top of Atmosphere",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-TOA-HI",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/356/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Normal Irradiance Top of Atmosphere",
+      "uom": "W_m-2",
+      "procedure": "SIGNES-TOA-NI",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/357/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Solar Zenith Angle",
+      "uom": "degree",
+      "procedure": "SIGNES-SZA",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/358/getData?expanded=true&format=flot"
+    },
+    {
+      "observedProperty": "MODEL Solar Azimuth Angle",
+      "uom": "degree",
+      "procedure": "SIGNES-SAA",
+      "dataUrl": "http://insitu.webservice-energy.org/timeseries-webapp/api/v1/timeseries/359/getData?expanded=true&format=flot"
+    }
+  ]
+}

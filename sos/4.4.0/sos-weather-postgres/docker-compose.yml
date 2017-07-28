@@ -1,0 +1,5 @@
+version: '2'
+services:
+  sos-weather-postgres:
+    build: .
+    image: 52north/sos-weather-postgres:4.4.0

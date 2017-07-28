@@ -1,0 +1,5 @@
+version: '2'
+services:
+  sos-solar-postgres:
+    build: .
+    image: 52north/sos-solar-postgres:4.4.0
